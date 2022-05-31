@@ -1,0 +1,28 @@
+.workButton {
+    height: 60px;
+    width: 120px;
+    border: 2px solid #FA2759;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+    transition: background-color 250ms;
+    @media (max-width: 480px) {
+        margin-left: unset;
+        margin-right: unset;
+        height: 12vw;
+        width: 28vw;
+    }
+    h4 {
+        @media (max-width: 480px) {
+            font-size: 3.4vw;
+        }
+    }
+}
+
+.red {
+    background-color: #FA2759;
+}

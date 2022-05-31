@@ -1,0 +1,48 @@
+.contact {
+    background-color: black;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .cantactContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+            color: #2efcd8;
+        }
+        .formular {
+            width: 600px;
+            @media (max-width: 720px) {
+                width: 90vw;
+            }
+            input,
+            textarea {
+                box-sizing: border-box;
+                width: 100%;
+                background-color: #1A1A1A;
+                border: none;
+                padding: 6px 8px 6px 8px;
+                color: white;
+                font-family: 'Inter', sans-serif;
+            }
+            button {
+                margin: 20px 0 20px 0;
+                height: 60px;
+                width: 100%;
+            }
+            p {
+                color: #A8A8A8;
+            }
+            a {
+                text-decoration: none;
+                color: #A8A8A8;
+            }
+            label {
+                line-height: 2;
+                font-size: 16px;
+            }
+        }
+    }
+}

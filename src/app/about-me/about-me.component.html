@@ -1,0 +1,23 @@
+<div class="aboutMe">
+    <div class="aboutMeContainer">
+        <div class="aboutMeTop">
+            <div>
+                <img src="assets/img/FOTOBONN-IMG_5398.jpg" alt="">
+            </div>
+            <div class="aboutMeText">
+                <h2>About me.</h2>
+                <p>“ I’m an outdoor sports enthusiast (Kayaking forever) and front end developer who loves pushing boundaries ”</p>
+
+            </div>
+
+        </div>
+        <div class="aboutMeBottom">
+            <app-aboutme-cards *ngFor="let AMcard of aboutMeCards" [aboutMeCard]="AMcard"></app-aboutme-cards>
+
+
+        </div>
+
+
+    </div>
+
+</div>

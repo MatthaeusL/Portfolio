@@ -1,0 +1,11 @@
+<div class="mySkills">
+    <div class="mySkillsContainer">
+        <div class="skillsTxt">
+            <h2>My Skills</h2>
+        </div>
+        <div class="skillCards">
+            <app-skill *ngFor="let skill of SkillParts" [logoSkill]="skill.logo" [textSkill]="skill.skillName"></app-skill>
+
+        </div>
+    </div>
+</div>

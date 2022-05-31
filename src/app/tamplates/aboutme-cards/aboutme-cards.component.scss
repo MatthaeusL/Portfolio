@@ -1,0 +1,39 @@
+.aboutMeCard {
+    width: 220px;
+    margin: 50px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 1024px) {
+        width: 40vw;
+    }
+    @media (max-width: 720px) {
+        width: 100%;
+    }
+    .dot {
+        background-color: #2DFCD8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        img {
+            height: 40px;
+            @media (max-width: 720px) {
+                height: 6vw;
+                width: 6vw;
+            }
+        }
+        @media (max-width: 720px) {
+            height: 14vw;
+            width: 14vw;
+        }
+    }
+    .AMtext {
+        text-align: center;
+        p {
+            text-align: justify;
+        }
+    }
+}

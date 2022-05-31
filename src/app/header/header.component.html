@@ -1,0 +1,31 @@
+<div class="header" [ngClass]="{'pauseNavHidden':menu}">
+    <div class="headerContainer">
+        <div class="menuClosed ">
+            <a href="#main "><img class="logo " src="assets/img/arrowsLogoWhite.svg " alt=" "></a>
+            <div class="menu ">
+                <a href="#skills ">SKILLS</a>
+                <a href="#about ">ABOUT</a>
+                <a href="#portfolio ">PORTFOLIO</a>
+
+            </div>
+            <div class="menuButton ">
+                <img class="menuButton " src="assets/img/menuWhite.svg " alt=" " *ngIf="!menu " (click)="menu=true">
+                <img class="menuButton " src="assets/img/closeMenuWhite.svg " alt=" " *ngIf="menu " (click)="menu=false">
+
+            </div>
+
+        </div>
+        <div class="menuOpen" [ngClass]="{'animationMenu':menu , 'animationMenuClose':menu === false, 'animationOnLoad':menu === undefined }">
+
+            <a href="{{link}}" (click)="linkSkills()">
+                <div class="menuLink ">SKILLS </div>
+            </a>
+            <a href="{{link}}" (click)="linkAbout()">
+                <div class="menuLink ">ABOUT </div>
+            </a>
+            <a href="{{link}}" (click)="linkPortfolio()">
+                <div class="menuLink ">PORTFOLIO </div>
+            </a>
+        </div>
+    </div>
+</div>

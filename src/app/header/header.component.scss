@@ -1,0 +1,147 @@
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        .headerContainer {
+            .menuClosed {
+                height: 80px;
+                width: 1200px;
+                // margin: 0 30px 0px 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                @media (max-width: 1260px) {
+                    width: 94vw;
+                }
+                @media (max-width: 720px) {
+                    width: 90vw;
+                }
+                .logo {
+                    height: 42px;
+                    animation: aniLogo 1.5s ease-in;
+                }
+                @keyframes aniLogo {
+                    0% {
+                        transform: rotateX(0deg);
+                    }
+                    100% {
+                        transform: rotateX(360deg);
+                    }
+                }
+                .menu {
+                    width: 400px;
+                    display: flex;
+                    justify-content: flex-end;
+                    @media (max-width: 720px) {
+                        display: none;
+                    }
+                    a {
+                        color: aliceblue;
+                        text-decoration: none;
+                        font-size: 20px;
+                        padding-left: 24px;
+                        transition: color 220ms;
+                        &:hover {
+                            color: #FA2759;
+                        }
+                    }
+                }
+                .menuButton {
+                    display: none;
+                    .menuButton {
+                        height: 42px;
+                    }
+                    @media (max-width: 720px) {
+                        display: flex;
+                        animation: aniMenu 200ms;
+                    }
+                    @keyframes aniMenu {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .menuOpen {
+                position: absolute;
+                height: 100vh;
+                z-index: -1;
+                display: flex;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                justify-content: center;
+                background-color: rgb(19, 17, 17);
+                a {
+                    color: aliceblue;
+                    text-decoration: none;
+                    font-size: 25px;
+                    padding-left: 24px;
+                    box-shadow: 0 4px 2px -2px rgba(255, 255, 255, 0.25);
+                    &:hover {
+                        color: #FA2759;
+                    }
+                    .menuLink {
+                        margin: 30px;
+                        width: 100%;
+                        overflow: hidden;
+                        text-align: start;
+                    }
+                }
+            }
+        }
+        transition: 300ms;
+    }
+    
+    .navHidden {
+        transform: translateY(-80px);
+    }
+    
+    .pauseNavHidden {
+        transform: none;
+    }
+    
+    .animationMenu {
+        animation: aniMenuopen 250ms ease-in forwards;
+    }
+    
+    .animationMenuClose {
+        animation: aniMenuclose 250ms ease-out forwards;
+    }
+    
+    .animationOnLoad {
+        animation: aniMenuclose 0ms forwards;
+    }
+    
+    @keyframes aniMenuclose {
+        from {
+            top: 0px;
+        }
+        to {
+            top: -100vh;
+        }
+    }
+    
+    @keyframes aniMenuopen {
+        0% {
+            top: -100vh;
+        }
+        70% {
+            top: 60px;
+        }
+        100% {
+            top: 0px;
+        }
+    }

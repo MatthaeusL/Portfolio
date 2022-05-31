@@ -1,0 +1,44 @@
+.myWork {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    .myWorkContainer {
+        color: white;
+        width: 1200px;
+        margin: 0 30px 60px 30px;
+        box-sizing: border-box;
+        @media (max-width: 480px) {
+            width: 90vw;
+        }
+        .myWorkTitle {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .workSwitch {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 72px;
+            @media (max-width: 720px) {
+                margin-bottom: 8vw;
+            }
+            @media (max-width: 480px) {
+                justify-content: space-between;
+            }
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 2vw;
+            justify-content: space-between;
+            @media (max-width: 720px) {
+                grid-template-columns: unset;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 2vw;
+                gap: 4vw;
+            }
+        }
+    }
+}

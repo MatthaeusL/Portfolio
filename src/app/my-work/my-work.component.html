@@ -1,0 +1,15 @@
+<div class="myWork">
+    <div class="myWorkContainer">
+        <div class="myWorkTitle">
+            <h2>My work</h2>
+
+        </div>
+        <div class="workSwitch">
+            <app-work-switch *ngFor="let button of buttons; let i = index" [buttonName]="button" [index]="i" (buttonIndex)="toggleButton($event)"></app-work-switch>
+        </div>
+        <div class="cards">
+            <app-work-card *ngFor="let project of projects" [card]="project" [TST]="tst"></app-work-card>
+        </div>
+
+    </div>
+</div>

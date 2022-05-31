@@ -1,0 +1,20 @@
+<div class="cardFrame" style="--aspect-ratio: 16/9;" *ngIf="TST[card.projID]">
+    <img class="imgcrd" src="{{card.projPic}}" (mouseover)="showInfo=true">
+
+    <div class="card" *ngIf="showInfo" (mouseleave)="showInfo=false">
+        <h3>{{card.projName}}</h3>
+        <p> {{card.projDescription}}</p>
+
+
+        <div class="icons">
+            <a href="{{card.projLink}}"><img class="iconImg" src="assets/img/eye-3-64.png" alt=""></a>
+            <a href="{{card.projLink}}"><img class="iconImg" src="assets/img/githubColor.png" alt=""></a>
+
+        </div>
+
+
+    </div>
+
+
+
+</div>
