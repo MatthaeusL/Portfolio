@@ -97,6 +97,9 @@
                     height: 8vw;
                     width: 8vw;
                 }
+                @media screen and (orientation: landscape) {
+                    display: none;
+                }
             }
         }
     }
