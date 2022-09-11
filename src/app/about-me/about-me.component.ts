@@ -11,7 +11,7 @@ export class AboutMeComponent implements OnInit {
     {
       AMicon: 'assets/img/walk-line.png',
       AMtitle: 'MY JURNEY BEGAN',
-      AMtext: 'My journey into the world of technology started early. I started working with macromedia flash at the young age of 16 and later as a student (where I worked for the international geothermal centre). I gained knowledge by educating myself in labview. Later as an entrepreneur / founder of a medical transport company my daily business was to organize the administration and handle documentation. For more efficiency in our daily operations I worked with Microsoft Office automation.',
+      AMtext: 'My journey into the world of technology started at the young age of 16 dealing with MS Frontpage. Later as a student, I worked for the international geothermal centre, I gained knowledge by educating myself in LabVIEW. As a founder of a medical transport company, my daily business was to organize the administration and handle documentation. For more efficiency in our daily operations, I worked with Microsoft Office automation.',
     },
     {
       AMicon: 'assets/img/heart-line.png',
@@ -21,12 +21,12 @@ export class AboutMeComponent implements OnInit {
     {
       AMicon: 'assets/img/search-line.png',
       AMtitle: 'Here I found what I was looking for',
-      AMtext: 'To make progress and gain a lot of practical experience in software development I got professional training as a front end developer at the Developer Academy. With their systematic training I am now able to build websites and apps in teams and also alone and got professional code reviews.',
+      AMtext: 'To make progress and gain a lot of practical experience in software development I got professional training as a front-end developer at the Developer Academy. With their systematic training, I am now able to build websites and apps in teams and also alone and got professional code reviews.',
     },
     {
       AMicon: 'assets/img/flight-takeoff-line.png',
       AMtitle: 'My new journey begins ',
-      AMtext: 'as a frontend developer i would apply my experience and looking for a new challange.',
+      AMtext: 'as a frontend developer, I would apply my experience and look for a new challenge.',
     },
   ]
   constructor() { }

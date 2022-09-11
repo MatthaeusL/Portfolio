@@ -9,9 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class MySkillsComponent implements OnInit {
   
     SkillParts=[
-      {logo: 'assets/img/html.png',
+      {logo: 'assets/img/csshtml.svg',
        skillName: 'HTML / CSS'},
-      {logo: 'assets/img/javascript.png',
+      {logo: 'assets/img/js_logo.svg',
        skillName: 'Java script'},
       {logo: 'assets/img/angular.png',
        skillName: 'Angular'},
@@ -21,7 +21,7 @@ export class MySkillsComponent implements OnInit {
        skillName: 'Git'},
       {logo: 'assets/img/pencil.png',
        skillName: 'Design Thinking'},
-      {logo: 'assets/img/api.png',
+      {logo: 'assets/img/rest-api-icon.svg',
        skillName: '(REST) API'},
       {logo: 'assets/img/test.png',
        skillName: 'Test automation'},
