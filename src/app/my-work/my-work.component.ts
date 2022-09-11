@@ -20,6 +20,7 @@ export class MyWorkComponent implements OnInit {
       projDescription: 'JavaScript besed jump amd run game',
       projPic: 'assets/img/proj/elpolloloco.png',
       projLink: 'http://demate.bplaced.net',
+      projGitLink: 'https://github.com/MatthaeusL/elpolloloco',
       projCode: [0, 1]
     },
     {
@@ -28,31 +29,35 @@ export class MyWorkComponent implements OnInit {
       projDescription: 'JavaScript besed Kanban board',
       projPic: 'assets/img/proj/join.png',
       projLink: 'http://www.gruppe-161.developerakademie.net/index.html',
+      projGitLink: 'https://github.com/MatthaeusL/Kanban-Gruppenarbeit--161',
       projCode: [0, 1]
     },
     {
       projID: 2,
       projName: 'ring of fire',
       projDescription: 'Angular based game ',
-      projPic: 'assets/img/proj/elpolloloco.png',
-      projLink: 'http://demate.bplaced.net',
+      projPic: 'assets/img/proj/ROF.png',
+      projLink: 'https://ring-of-fire-15e5c.web.app',
+      projGitLink: 'https://github.com/MatthaeusL/RingOfFire',
       projCode: [0, 2]
     },
     {
       projID: 3,
-      projName: 'ring of Water',
-      projDescription: 'JavaScript besed jump amd run game',
-      projPic: 'assets/img/proj/elpolloloco.png',
-      projLink: 'http://demate.bplaced.net',
+      projName: 'Portfolio',
+      projDescription: 'Angular besed portfolio with my skills an projects',
+      projPic: 'assets/img/proj/ROF.png',
+      projLink: 'http://matlis.info',
+      projGitLink: 'https://github.com/MatthaeusL/Portfolio',
       projCode: [0, 2]
     },
     {
       projID: 4,
-      projName: 'ring of Wind',
-      projDescription: 'JavaScript besed jump amd run game',
+      projName: 'pokedex',
+      projDescription: 'REST Api based Site',
       projPic: 'assets/img/proj/elpolloloco.png',
       projLink: 'http://demate.bplaced.net',
-      projCode: [0, 2]
+      projGitLink: 'http://google.de',
+      projCode: [0, 1]
     },
 
   ]

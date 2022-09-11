@@ -13,6 +13,7 @@ export class WorkCardComponent implements OnInit {
     projDescription: '',
     projPic: '',
     projLink: '',
+    projGitLink: '',
     projCode: []
   };
   @Input() TST=[];

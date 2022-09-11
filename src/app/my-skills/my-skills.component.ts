@@ -22,7 +22,7 @@ export class MySkillsComponent implements OnInit {
       {logo: 'assets/img/pencil.png',
        skillName: 'Design Thinking'},
       {logo: 'assets/img/api.png',
-       skillName: 'Rest API'},
+       skillName: '(REST) API'},
       {logo: 'assets/img/test.png',
        skillName: 'Test automation'},
       {logo: 'assets/img/database.png',

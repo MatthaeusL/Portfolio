@@ -17,6 +17,7 @@ import { AboutmeCardsComponent } from './tamplates/aboutme-cards/aboutme-cards.c
 import { MainComponent } from './main/main.component';
 import { LegalComponent } from './legal/legal.component';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { SentMessageComponent } from './sent-message/sent-message.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
     MainComponent,
     LegalComponent,
     PrivacyComponent,
+    SentMessageComponent,
     
     
   ],
