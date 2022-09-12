@@ -1,6 +1,6 @@
 .footer {
     min-height: 100px;
-    background-color: cadetblue;
+    background-color: #2DFCD8;
     display: flex;
     justify-content: center;
     .footerContainer {
@@ -20,26 +20,26 @@
                 font-weight: bold;
             }
         }
-        // .logo {
-        //     display: flex;
-        //     flex-direction: column;
-        //     justify-content: center;
-        //     img {
-        //         height: 30px;
-        //         margin-left: 7px;
-        //         margin-bottom: 4px;
-        //         @media (max-width: 720px) {
-        //             height: 6vw;
-        //         }
-        //         @media (max-width: 480px) {
-        //             height: 25px;
-        //         }
-        //     }
-        //     p {
-        //         margin: 0;
-        //         font-size: 12px;
-        //     }
-        // }
+        .logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img {
+                height: 30px;
+                margin-left: 7px;
+                margin-bottom: 4px;
+                @media (max-width: 720px) {
+                    height: 6vw;
+                }
+                @media (max-width: 480px) {
+                    height: 25px;
+                }
+            }
+            p {
+                margin: 0;
+                font-size: 12px;
+            }
+        }
         .icons {
             display: flex;
             justify-content: space-between;
